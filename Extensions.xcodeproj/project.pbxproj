@@ -8,12 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		1AAC13A1210C9CD3004E320A /* Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AAC139F210C9CD3004E320A /* Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AAC13A8210C9D99004E320A /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAC13A7210C9D99004E320A /* String+Extensions.swift */; };
+		1AAC13AA210CA031004E320A /* CABasicAnimation+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAC13A9210CA031004E320A /* CABasicAnimation+Extensions.swift */; };
+		1AAC13AC210CA05D004E320A /* CGFloat+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAC13AB210CA05D004E320A /* CGFloat+Extensions.swift */; };
+		1AAC13AE210CA096004E320A /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAC13AD210CA096004E320A /* UIColor+Extensions.swift */; };
+		1AAC13B0210CA209004E320A /* CALayer+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAC13AF210CA209004E320A /* CALayer+Extensions.swift */; };
+		1AAC13B2210CA37E004E320A /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAC13B1210CA37E004E320A /* CGPoint+Extensions.swift */; };
+		1AAC13B4210CA3EA004E320A /* CGRect+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAC13B3210CA3EA004E320A /* CGRect+Extensions.swift */; };
+		1AAC13B6210CA51E004E320A /* CATransition+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAC13B5210CA51E004E320A /* CATransition+Extensions.swift */; };
+		1AAC13B8210CA5A7004E320A /* CGAffineTransform+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAC13B7210CA5A7004E320A /* CGAffineTransform+Extensions.swift */; };
+		1AAC13C6210CA8A8004E320A /* RealNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAC13C5210CA8A8004E320A /* RealNumber.swift */; };
+		1AAC13C8210CA8B4004E320A /* RealVector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAC13C7210CA8B3004E320A /* RealVector.swift */; };
+		1AAC13CA210CA956004E320A /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAC13C9210CA956004E320A /* UIView+Extensions.swift */; };
+		1AAC13CC210CA9CB004E320A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAC13CB210CA9CB004E320A /* Constants.swift */; };
+		1AAC13CE210CAA43004E320A /* BugWorkarounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAC13CD210CAA43004E320A /* BugWorkarounds.swift */; };
+		1AAC13D0210CAA8A004E320A /* SCNNode+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAC13CF210CAA8A004E320A /* SCNNode+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1AAC139C210C9CD3004E320A /* Extensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Extensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AAC139F210C9CD3004E320A /* Extensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Extensions.h; sourceTree = "<group>"; };
 		1AAC13A0210C9CD3004E320A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AAC13A7210C9D99004E320A /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		1AAC13A9210CA031004E320A /* CABasicAnimation+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CABasicAnimation+Extensions.swift"; sourceTree = "<group>"; };
+		1AAC13AB210CA05D004E320A /* CGFloat+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extensions.swift"; sourceTree = "<group>"; };
+		1AAC13AD210CA096004E320A /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		1AAC13AF210CA209004E320A /* CALayer+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer+Extensions.swift"; sourceTree = "<group>"; };
+		1AAC13B1210CA37E004E320A /* CGPoint+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extensions.swift"; sourceTree = "<group>"; };
+		1AAC13B3210CA3EA004E320A /* CGRect+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGRect+Extensions.swift"; sourceTree = "<group>"; };
+		1AAC13B5210CA51E004E320A /* CATransition+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CATransition+Extensions.swift"; sourceTree = "<group>"; };
+		1AAC13B7210CA5A7004E320A /* CGAffineTransform+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGAffineTransform+Extensions.swift"; sourceTree = "<group>"; };
+		1AAC13C5210CA8A8004E320A /* RealNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealNumber.swift; sourceTree = "<group>"; };
+		1AAC13C7210CA8B3004E320A /* RealVector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealVector.swift; sourceTree = "<group>"; };
+		1AAC13C9210CA956004E320A /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		1AAC13CB210CA9CB004E320A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1AAC13CD210CAA43004E320A /* BugWorkarounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BugWorkarounds.swift; sourceTree = "<group>"; };
+		1AAC13CF210CAA8A004E320A /* SCNNode+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SCNNode+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +62,7 @@
 			children = (
 				1AAC139E210C9CD3004E320A /* Extensions */,
 				1AAC139D210C9CD3004E320A /* Products */,
+				1AAC13B9210CA78C004E320A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -46,10 +77,80 @@
 		1AAC139E210C9CD3004E320A /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				1AAC139F210C9CD3004E320A /* Extensions.h */,
 				1AAC13A0210C9CD3004E320A /* Info.plist */,
+				1AAC139F210C9CD3004E320A /* Extensions.h */,
+				1AAC13CB210CA9CB004E320A /* Constants.swift */,
+				1AAC13A7210C9D99004E320A /* String+Extensions.swift */,
+				1AAC13D6210CAC62004E320A /* Vectors */,
+				1AAC13D1210CABEE004E320A /* Core Animation */,
+				1AAC13D2210CAC0A004E320A /* Core Graphics */,
+				1AAC13D3210CAC1D004E320A /* UIKit */,
+				1AAC13D4210CAC27004E320A /* SceneKit */,
+				1AAC13D5210CAC34004E320A /* Playgrounds */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1AAC13B9210CA78C004E320A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1AAC13D1210CABEE004E320A /* Core Animation */ = {
+			isa = PBXGroup;
+			children = (
+				1AAC13A9210CA031004E320A /* CABasicAnimation+Extensions.swift */,
+				1AAC13AF210CA209004E320A /* CALayer+Extensions.swift */,
+				1AAC13B5210CA51E004E320A /* CATransition+Extensions.swift */,
+			);
+			path = "Core Animation";
+			sourceTree = "<group>";
+		};
+		1AAC13D2210CAC0A004E320A /* Core Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				1AAC13AB210CA05D004E320A /* CGFloat+Extensions.swift */,
+				1AAC13B7210CA5A7004E320A /* CGAffineTransform+Extensions.swift */,
+				1AAC13B1210CA37E004E320A /* CGPoint+Extensions.swift */,
+				1AAC13B3210CA3EA004E320A /* CGRect+Extensions.swift */,
+			);
+			path = "Core Graphics";
+			sourceTree = "<group>";
+		};
+		1AAC13D3210CAC1D004E320A /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				1AAC13AD210CA096004E320A /* UIColor+Extensions.swift */,
+				1AAC13C9210CA956004E320A /* UIView+Extensions.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		1AAC13D4210CAC27004E320A /* SceneKit */ = {
+			isa = PBXGroup;
+			children = (
+				1AAC13CF210CAA8A004E320A /* SCNNode+Extensions.swift */,
+			);
+			path = SceneKit;
+			sourceTree = "<group>";
+		};
+		1AAC13D5210CAC34004E320A /* Playgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				1AAC13CD210CAA43004E320A /* BugWorkarounds.swift */,
+			);
+			path = Playgrounds;
+			sourceTree = "<group>";
+		};
+		1AAC13D6210CAC62004E320A /* Vectors */ = {
+			isa = PBXGroup;
+			children = (
+				1AAC13C5210CA8A8004E320A /* RealNumber.swift */,
+				1AAC13C7210CA8B3004E320A /* RealVector.swift */,
+			);
+			path = Vectors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,6 +196,7 @@
 				TargetAttributes = {
 					1AAC139B210C9CD3004E320A = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 				};
 			};
@@ -130,6 +232,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AAC13A8210C9D99004E320A /* String+Extensions.swift in Sources */,
+				1AAC13AC210CA05D004E320A /* CGFloat+Extensions.swift in Sources */,
+				1AAC13B6210CA51E004E320A /* CATransition+Extensions.swift in Sources */,
+				1AAC13D0210CAA8A004E320A /* SCNNode+Extensions.swift in Sources */,
+				1AAC13B0210CA209004E320A /* CALayer+Extensions.swift in Sources */,
+				1AAC13AA210CA031004E320A /* CABasicAnimation+Extensions.swift in Sources */,
+				1AAC13C8210CA8B4004E320A /* RealVector.swift in Sources */,
+				1AAC13CE210CAA43004E320A /* BugWorkarounds.swift in Sources */,
+				1AAC13CA210CA956004E320A /* UIView+Extensions.swift in Sources */,
+				1AAC13CC210CA9CB004E320A /* Constants.swift in Sources */,
+				1AAC13B4210CA3EA004E320A /* CGRect+Extensions.swift in Sources */,
+				1AAC13C6210CA8A8004E320A /* RealNumber.swift in Sources */,
+				1AAC13B2210CA37E004E320A /* CGPoint+Extensions.swift in Sources */,
+				1AAC13B8210CA5A7004E320A /* CGAffineTransform+Extensions.swift in Sources */,
+				1AAC13AE210CA096004E320A /* UIColor+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +376,7 @@
 		1AAC13A5210C9CD3004E320A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -276,6 +394,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.lochiwei.Extensions;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -284,6 +403,7 @@
 		1AAC13A6210C9CD3004E320A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
