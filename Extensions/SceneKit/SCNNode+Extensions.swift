@@ -53,7 +53,7 @@ extension SCNNode {
     // --------------
     
     // usage: let lightNode = node.newLightNode(.omni, at: position)
-    public func newLightNode(_ type: SCNLight.LightType, color: Any? = nil, at position:SCNVector3? = nil) -> SCNNode {
+    public func newLightNode(_ type: SCNLight.LightType, color: Any? = nil, at position:SCNVector3? = nil, lookAt target: SCNNode? = nil) -> SCNNode {
         
         // light
         let light = SCNLight()
@@ -64,6 +64,7 @@ extension SCNNode {
         let lightNode = SCNNode()
         lightNode.light = light
         if let p = position { lightNode.position = p }
+        if let t = target { lightNode.look(at: t) }
         
         // graph tree
         add(lightNode)
