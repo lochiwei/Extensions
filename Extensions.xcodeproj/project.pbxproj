@@ -25,6 +25,7 @@
 		1AAC13D0210CAA8A004E320A /* SCNNode+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAC13CF210CAA8A004E320A /* SCNNode+Extensions.swift */; };
 		1AAC13E7210DEE8A004E320A /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAC13E6210DEE8A004E320A /* Array+Extensions.swift */; };
 		1AAC1471210FF7F8004E320A /* SCNNode+Toys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAC1470210FF7F8004E320A /* SCNNode+Toys.swift */; };
+		1AAC147821113925004E320A /* SCNTransaction+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAC147721113925004E320A /* SCNTransaction+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		1AAC13CF210CAA8A004E320A /* SCNNode+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SCNNode+Extensions.swift"; sourceTree = "<group>"; };
 		1AAC13E6210DEE8A004E320A /* Array+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
 		1AAC1470210FF7F8004E320A /* SCNNode+Toys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SCNNode+Toys.swift"; sourceTree = "<group>"; };
+		1AAC147721113925004E320A /* SCNTransaction+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SCNTransaction+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				1AAC13CF210CAA8A004E320A /* SCNNode+Extensions.swift */,
+				1AAC147721113925004E320A /* SCNTransaction+Extensions.swift */,
 			);
 			path = SceneKit;
 			sourceTree = "<group>";
@@ -255,6 +258,7 @@
 				1AAC13C8210CA8B4004E320A /* RealVector.swift in Sources */,
 				1AAC1471210FF7F8004E320A /* SCNNode+Toys.swift in Sources */,
 				1AAC13CE210CAA43004E320A /* BugWorkarounds.swift in Sources */,
+				1AAC147821113925004E320A /* SCNTransaction+Extensions.swift in Sources */,
 				1AAC13CA210CA956004E320A /* UIView+Extensions.swift in Sources */,
 				1AAC13CC210CA9CB004E320A /* Constants.swift in Sources */,
 				1AAC13B4210CA3EA004E320A /* CGRect+Extensions.swift in Sources */,
