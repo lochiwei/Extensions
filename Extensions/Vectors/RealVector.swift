@@ -135,98 +135,13 @@ public func - <U:RealVector, V:RealVector>(u:U, v:V) -> U {
 
 // MARK: - RealVector (conforming types)
 
-// SCNVector3
-extension SCNVector3: RealVector {
-    // 3-dimensional
-    public static var dimension: Int { return 3 }
-    // custom get/set coordinates
-    public var coordinates: [Float] {
-        get { return [x, y, z] }
-        set {
-            var coords = newValue + [0,0,0]
-            x = coords[0]
-            y = coords[1]
-            z = coords[2]
-        }
-    }
-}// end: SCNVector3: RealVector
 
-// CGPoint
-extension CGPoint: RealVector {
-    // 2-dimensional
-    public static var dimension: Int { return 2 }
-    // custom get/set coordinates
-    public var coordinates: [Float] {
-        get { return [x, y].map { $0.realValue } }
-        set {
-            var coords = newValue + [0,0]
-            x = CGFloat(coords[0])
-            y = CGFloat(coords[1])
-        }
-    }
-}// end: CGPoint
 
-// CGVector
-extension CGVector: RealVector {
-    // 2-dimensional
-    public static var dimension: Int { return 2 }
-    // custom get/set coordinates
-    public var coordinates: [Float] {
-        get { return [dx, dy].map { $0.realValue } }
-        set {
-            var coords = newValue + [0,0]
-            dx = CGFloat(coords[0])
-            dy = CGFloat(coords[1])
-        }
-    }
-}// end: CGVector
 
-// CGSize
-extension CGSize: RealVector {
-    // 2-dimensional
-    public static var dimension: Int { return 2 }
-    // custiom get/set coordinates
-    public var coordinates: [Float] {
-        get { return [width, height].map { $0.realValue } }
-        set {
-            var coords = newValue + [0,0]
-            width = CGFloat(coords[0])
-            height = CGFloat(coords[1])
-        }
-    }
-}
 
-// SCNVector4
-extension SCNVector4: RealVector {
-    // 4-dimensional
-    public static var dimension: Int { return 4 }
-    // custom get/set coordinates
-    public var coordinates: [Float] {
-        get { return [x, y, z, w] }
-        set {
-            var coords = newValue + [0,0,0,0]
-            x = coords[0]
-            y = coords[1]
-            z = coords[2]
-            w = coords[3]
-        }
-        
-    }
-}// end: SCNVector4
 
-// CGRect
-extension CGRect: RealVector {
-    // 4-dimensional
-    public static var dimension: Int { return 4}
-    // custom get/set coordinates
-    public var coordinates: [Float] {
-        get {
-            return [origin.x, origin.y, width, height].map { $0.realValue }
-        }
-        set {
-            var v = newValue + [0,0,0,0]
-            origin = [v[0], v[1]]
-            size = [v[2], v[3]]
-        }
-    }
-}// end: CGRect
+
+
+
+
+

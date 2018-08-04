@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A1987B121152A8C00821641 /* CGSize+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1987B021152A8C00821641 /* CGSize+Extensions.swift */; };
+		1A1987B321152B6500821641 /* SCNVector3+RealVector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1987B221152B6500821641 /* SCNVector3+RealVector.swift */; };
+		1A1987B521152BA700821641 /* SCNVector4+RealVector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1987B421152BA700821641 /* SCNVector4+RealVector.swift */; };
+		1A1987B721152BF300821641 /* CGPoint+RealVector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1987B621152BF300821641 /* CGPoint+RealVector.swift */; };
+		1A1987B921152C2F00821641 /* CGVector+RealVector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1987B821152C2F00821641 /* CGVector+RealVector.swift */; };
+		1A1987BB21152C6800821641 /* CGSize+RealVector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1987BA21152C6800821641 /* CGSize+RealVector.swift */; };
+		1A1987BD21152C9800821641 /* CGRect+RealVector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1987BC21152C9800821641 /* CGRect+RealVector.swift */; };
+		1A1987C1211561D200821641 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1987C0211561D200821641 /* UIImage+Extensions.swift */; };
+		1A1987C32115628A00821641 /* UIView+Toys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1987C22115628A00821641 /* UIView+Toys.swift */; };
+		1A9445402115AB630069E7A4 /* CGContext+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A94453F2115AB630069E7A4 /* CGContext+Extensions.swift */; };
 		1AAC13A1210C9CD3004E320A /* Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AAC139F210C9CD3004E320A /* Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1AAC13A8210C9D99004E320A /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAC13A7210C9D99004E320A /* String+Extensions.swift */; };
 		1AAC13AA210CA031004E320A /* CABasicAnimation+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAC13A9210CA031004E320A /* CABasicAnimation+Extensions.swift */; };
@@ -29,6 +39,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A1987B021152A8C00821641 /* CGSize+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGSize+Extensions.swift"; sourceTree = "<group>"; };
+		1A1987B221152B6500821641 /* SCNVector3+RealVector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SCNVector3+RealVector.swift"; sourceTree = "<group>"; };
+		1A1987B421152BA700821641 /* SCNVector4+RealVector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SCNVector4+RealVector.swift"; sourceTree = "<group>"; };
+		1A1987B621152BF300821641 /* CGPoint+RealVector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGPoint+RealVector.swift"; sourceTree = "<group>"; };
+		1A1987B821152C2F00821641 /* CGVector+RealVector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGVector+RealVector.swift"; sourceTree = "<group>"; };
+		1A1987BA21152C6800821641 /* CGSize+RealVector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGSize+RealVector.swift"; sourceTree = "<group>"; };
+		1A1987BC21152C9800821641 /* CGRect+RealVector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGRect+RealVector.swift"; sourceTree = "<group>"; };
+		1A1987C0211561D200821641 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		1A1987C22115628A00821641 /* UIView+Toys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Toys.swift"; sourceTree = "<group>"; };
+		1A94453F2115AB630069E7A4 /* CGContext+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGContext+Extensions.swift"; sourceTree = "<group>"; };
 		1AAC139C210C9CD3004E320A /* Extensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Extensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AAC139F210C9CD3004E320A /* Extensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Extensions.h; sourceTree = "<group>"; };
 		1AAC13A0210C9CD3004E320A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -63,6 +83,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A1987BE21152CDA00821641 /* ConformingTypes */ = {
+			isa = PBXGroup;
+			children = (
+				1A1987B621152BF300821641 /* CGPoint+RealVector.swift */,
+				1A1987B821152C2F00821641 /* CGVector+RealVector.swift */,
+				1A1987BA21152C6800821641 /* CGSize+RealVector.swift */,
+				1A1987BC21152C9800821641 /* CGRect+RealVector.swift */,
+				1A1987B221152B6500821641 /* SCNVector3+RealVector.swift */,
+				1A1987B421152BA700821641 /* SCNVector4+RealVector.swift */,
+			);
+			path = ConformingTypes;
+			sourceTree = "<group>";
+		};
+		1A1987BF21152D5E00821641 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				1AAC13CB210CA9CB004E320A /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
 		1AAC1392210C9CD3004E320A = {
 			isa = PBXGroup;
 			children = (
@@ -85,7 +126,7 @@
 			children = (
 				1AAC13A0210C9CD3004E320A /* Info.plist */,
 				1AAC139F210C9CD3004E320A /* Extensions.h */,
-				1AAC13CB210CA9CB004E320A /* Constants.swift */,
+				1A1987BF21152D5E00821641 /* Constants */,
 				1AAC13E8210DEEA2004E320A /* Foundation */,
 				1AAC13D6210CAC62004E320A /* Vectors */,
 				1AAC13D1210CABEE004E320A /* Core Animation */,
@@ -121,6 +162,8 @@
 				1AAC13B7210CA5A7004E320A /* CGAffineTransform+Extensions.swift */,
 				1AAC13B1210CA37E004E320A /* CGPoint+Extensions.swift */,
 				1AAC13B3210CA3EA004E320A /* CGRect+Extensions.swift */,
+				1A1987B021152A8C00821641 /* CGSize+Extensions.swift */,
+				1A94453F2115AB630069E7A4 /* CGContext+Extensions.swift */,
 			);
 			path = "Core Graphics";
 			sourceTree = "<group>";
@@ -130,6 +173,7 @@
 			children = (
 				1AAC13AD210CA096004E320A /* UIColor+Extensions.swift */,
 				1AAC13C9210CA956004E320A /* UIView+Extensions.swift */,
+				1A1987C0211561D200821641 /* UIImage+Extensions.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -148,6 +192,7 @@
 			children = (
 				1AAC13CD210CAA43004E320A /* BugWorkarounds.swift */,
 				1AAC1470210FF7F8004E320A /* SCNNode+Toys.swift */,
+				1A1987C22115628A00821641 /* UIView+Toys.swift */,
 			);
 			path = Playgrounds;
 			sourceTree = "<group>";
@@ -157,6 +202,7 @@
 			children = (
 				1AAC13C5210CA8A8004E320A /* RealNumber.swift */,
 				1AAC13C7210CA8B3004E320A /* RealVector.swift */,
+				1A1987BE21152CDA00821641 /* ConformingTypes */,
 			);
 			path = Vectors;
 			sourceTree = "<group>";
@@ -251,22 +297,32 @@
 			files = (
 				1AAC13A8210C9D99004E320A /* String+Extensions.swift in Sources */,
 				1AAC13AC210CA05D004E320A /* CGFloat+Extensions.swift in Sources */,
+				1A1987B321152B6500821641 /* SCNVector3+RealVector.swift in Sources */,
+				1A9445402115AB630069E7A4 /* CGContext+Extensions.swift in Sources */,
 				1AAC13B6210CA51E004E320A /* CATransition+Extensions.swift in Sources */,
 				1AAC13D0210CAA8A004E320A /* SCNNode+Extensions.swift in Sources */,
+				1A1987B521152BA700821641 /* SCNVector4+RealVector.swift in Sources */,
+				1A1987C32115628A00821641 /* UIView+Toys.swift in Sources */,
 				1AAC13B0210CA209004E320A /* CALayer+Extensions.swift in Sources */,
 				1AAC13AA210CA031004E320A /* CABasicAnimation+Extensions.swift in Sources */,
+				1A1987BD21152C9800821641 /* CGRect+RealVector.swift in Sources */,
 				1AAC13C8210CA8B4004E320A /* RealVector.swift in Sources */,
+				1A1987BB21152C6800821641 /* CGSize+RealVector.swift in Sources */,
 				1AAC1471210FF7F8004E320A /* SCNNode+Toys.swift in Sources */,
 				1AAC13CE210CAA43004E320A /* BugWorkarounds.swift in Sources */,
 				1AAC147821113925004E320A /* SCNTransaction+Extensions.swift in Sources */,
 				1AAC13CA210CA956004E320A /* UIView+Extensions.swift in Sources */,
+				1A1987B121152A8C00821641 /* CGSize+Extensions.swift in Sources */,
 				1AAC13CC210CA9CB004E320A /* Constants.swift in Sources */,
 				1AAC13B4210CA3EA004E320A /* CGRect+Extensions.swift in Sources */,
 				1AAC13E7210DEE8A004E320A /* Array+Extensions.swift in Sources */,
 				1AAC13C6210CA8A8004E320A /* RealNumber.swift in Sources */,
 				1AAC13B2210CA37E004E320A /* CGPoint+Extensions.swift in Sources */,
 				1AAC13B8210CA5A7004E320A /* CGAffineTransform+Extensions.swift in Sources */,
+				1A1987B921152C2F00821641 /* CGVector+RealVector.swift in Sources */,
+				1A1987C1211561D200821641 /* UIImage+Extensions.swift in Sources */,
 				1AAC13AE210CA096004E320A /* UIColor+Extensions.swift in Sources */,
+				1A1987B721152BF300821641 /* CGPoint+RealVector.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
