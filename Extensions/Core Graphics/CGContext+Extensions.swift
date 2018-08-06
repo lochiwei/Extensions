@@ -18,16 +18,16 @@ extension CGContext {
         _ pointB:CGPoint,
         
         // optional parameters
-        strokeWidth:RealNumber? = nil,
-        strokeColor:UIColor? = nil
+        width:RealNumber? = nil,
+        color:UIColor? = nil
         ) {
         
         // 1. save state
         saveGState()
         
         // 2. configure palette
-        setLineWidth(CGFloat(strokeWidth?.realValue ?? 1))  // stroke width: default = 1
-        setStrokeColor( (strokeColor ?? .black).cgColor )   // stroke color: default = black
+        setLineWidth(CGFloat(width?.realValue ?? 1))  // stroke width: default = 1
+        setStrokeColor( (color ?? .black).cgColor )   // stroke color: default = black
         
         // 3. design path
         beginPath()
@@ -49,7 +49,7 @@ extension CGContext {
         // optional parameters
         stroke:Bool? = nil,
         fill:Bool? = nil,
-        blendMode mode:CGBlendMode? = nil,
+        blend mode:CGBlendMode? = nil,
         strokeWidth: RealNumber? = nil,
         strokeColor: UIColor? = nil,
         fillColor:UIColor? = nil
@@ -89,7 +89,7 @@ extension CGContext {
     // usage: ctx.erase(polygon: points)
     public func erase(polygon points:[CGPoint]) {
         //❓: is the fill color important in this case ?
-        polygon(points, stroke: false, blendMode: .clear)
+        polygon(points, stroke: false, blend: .clear)
     }
     
 }// end: CGContext

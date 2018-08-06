@@ -19,6 +19,7 @@
 		1A9445402115AB630069E7A4 /* CGContext+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A94453F2115AB630069E7A4 /* CGContext+Extensions.swift */; };
 		1A9445422117D3A80069E7A4 /* AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9445412117D3A80069E7A4 /* AutoLayout.swift */; };
 		1A9445452117E03C0069E7A4 /* NSLayoutConstraint+AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9445442117E03C0069E7A4 /* NSLayoutConstraint+AutoLayout.swift */; };
+		1AA897062117F4EC00BD9BE3 /* UIBezierPath+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA897052117F4EC00BD9BE3 /* UIBezierPath+Extensions.swift */; };
 		1AAC13A1210C9CD3004E320A /* Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AAC139F210C9CD3004E320A /* Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1AAC13A8210C9D99004E320A /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAC13A7210C9D99004E320A /* String+Extensions.swift */; };
 		1AAC13AA210CA031004E320A /* CABasicAnimation+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAC13A9210CA031004E320A /* CABasicAnimation+Extensions.swift */; };
@@ -53,6 +54,7 @@
 		1A94453F2115AB630069E7A4 /* CGContext+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGContext+Extensions.swift"; sourceTree = "<group>"; };
 		1A9445412117D3A80069E7A4 /* AutoLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayout.swift; sourceTree = "<group>"; };
 		1A9445442117E03C0069E7A4 /* NSLayoutConstraint+AutoLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSLayoutConstraint+AutoLayout.swift"; sourceTree = "<group>"; };
+		1AA897052117F4EC00BD9BE3 /* UIBezierPath+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBezierPath+Extensions.swift"; sourceTree = "<group>"; };
 		1AAC139C210C9CD3004E320A /* Extensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Extensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AAC139F210C9CD3004E320A /* Extensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Extensions.h; sourceTree = "<group>"; };
 		1AAC13A0210C9CD3004E320A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -188,6 +190,7 @@
 				1AAC13AD210CA096004E320A /* UIColor+Extensions.swift */,
 				1AAC13C9210CA956004E320A /* UIView+Extensions.swift */,
 				1A1987C0211561D200821641 /* UIImage+Extensions.swift */,
+				1AA897052117F4EC00BD9BE3 /* UIBezierPath+Extensions.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -315,6 +318,7 @@
 				1A9445402115AB630069E7A4 /* CGContext+Extensions.swift in Sources */,
 				1AAC13B6210CA51E004E320A /* CATransition+Extensions.swift in Sources */,
 				1AAC13D0210CAA8A004E320A /* SCNNode+Extensions.swift in Sources */,
+				1AA897062117F4EC00BD9BE3 /* UIBezierPath+Extensions.swift in Sources */,
 				1A9445452117E03C0069E7A4 /* NSLayoutConstraint+AutoLayout.swift in Sources */,
 				1A1987B521152BA700821641 /* SCNVector4+RealVector.swift in Sources */,
 				1A1987C32115628A00821641 /* UIView+Toys.swift in Sources */,
